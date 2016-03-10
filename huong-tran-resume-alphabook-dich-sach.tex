@@ -1,0 +1,103 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[vietnam, english]{babel}                   
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3.5cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Trần}{Thanh Hương}
+%\title{Huong Tran's CV}                               % optional, remove / comment the line if not wanted
+\address {383-2 Doryodong-dong}{Yuseong-gu}{Daejeon, Republic of Korea}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+82~10~4228~4203}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{huonghuongvn@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.aloevn.wordpress.com}                         % optional, remove
+
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+
+\photo[72pt][0.4pt]{Huong_sm.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\selectlanguage{vietnam}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Mục tiêu}
+\cvitem{}{Dịch giả cho dự án chuyển ngữ sách "When Breath Becomes Air" của Paul Kalanithi.}
+
+\section{Kỹ năng}
+\cvitem{}{\begin{itemize}
+  \item Có kiến thức chuyên môn trong lĩnh vực khoa học kĩ thuật, xã hội và giáo dục. Đặc biệt là chuyên ngành Sinh học và Chính sách.
+  \item Quan tâm đến các vấn đề kinh tế và chính trị.
+  \item Tổ chức công việc khoa học và hiệu quả. Quản lý thời gian tốt.
+  \item Kiên nhẫn, có khả năng tập trung cao đối với công việc đòi hỏi sự tỉ mỉ.
+  \item Ưu thế trong tư duy phân tích và tổng hợp vấn đề.
+  \item Ham học hỏi, chịu khó lắng nghe.
+  \item Làm việc độc lập và có trách nhiệm với công việc.
+  \item Linh hoạt, có khả năng thích nghi cao.
+  \item Sử dụng thành thạo các công cụ MS Words, MS Excel, MS Powerpoint.
+\end{itemize}
+}
+
+\section{Kinh nghiệm liên quan}
+\cventry{2015--hiện nay}{Cộng tác viên dịch thuật.}{Dự án giáo dục trực tuyến Kiến học}{\url{http://kienhoc.vn}}{}{Dịch và biên tập một số bài giảng chuyên ngành Sinh, Hóa từ trường MIT}
+\cventry{2011--2012}{Trợ giảng môn học}{KAIST Graduate school of Science and Technology Policy}{}{}
+{
+\begin{itemize}%
+\item Sức mạnh của Lựa Chọn
+\item Môi Trường Chủ Nghĩa
+\item Triết Học Khoa Học
+\end{itemize}}
+\cventry{2011}{Cộng tác viên}{KAIST Graduate school of Science and
+Technology Policy}{}{}{Hỗ trợ dự án nghiên cứu về chương trình giảng dạy tiếng Anh ở các trường đại học.}
+\cventry{2011}{Tình nguyện viên}{TED}{\url{www.ted.com}}{}{Dịch sang tiếng Việt một số bài nói chuyện trên TED}
+
+\cventry{2009--2010}{Làm việc bán thời gian}{Phòng quản lý tư liệu của trường KAIST}{}{}{Số hóa các văn bản lưu trữ của trường }
+
+\section{ Ngoại ngữ}
+\cvitemwithcomment{Tiếng Anh} {thành thạo}{TOEIC 955/990, 07/2014}
+\cvitemwithcomment{Tiếng Hàn}{thành thạo}{TOPIK level 5/6, 12/2015}
+
+
+\section{Học vấn}
+\cventry{2011--2013}{Thạc sỹ Chính Sách Khoa Học Kỹ Thuật}{KAIST
+(Korea Advanced Institute of Science and Technology)}{Daejeon} {} {GPA:
+  3.58/4.3 (92/100)
+  \newline Luận văn:
+  \textit{"Quốc tế hóa sau đại học: góc nhìn Việt Nam."}}
+
+\cventry{2007--2011}{Cử Nhân Sinh Học}{KAIST
+(Korea Advanced Institute of Science and Technology)}{Daejeon}{}{GPA: 3.21/4.3
+(87.88/100)}
+
+
+\section{Sở thích}
+\cvitem{Đọc sách}{Tâm lý, Triết học, Giáo dục, Khoa học-Kỹ thuật, Kinh tế, Văn học \break [\url{www.goodreads.com/user/show/20847517-huong-tran]}}
+\cvitem{Thể thao}{Yoga, Cầu lông}
+
+\end{document}
+
+
+%% end of file `template.tex'.
